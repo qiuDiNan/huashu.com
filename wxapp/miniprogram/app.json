@@ -1,0 +1,43 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/login/login",
+        "pages/talkcollect/talkcollect",
+        "pages/search/search",
+        "pages/feedback/feedback",
+        "pages/mine/mine",
+        "pages/circle/circle"
+       
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "云开发 QuickStart",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "selectedColor": "#1161AD",
+        "list": [
+            {
+                "selectedIconPath": "images/tabbar/home2.png",
+                "iconPath": "images/tabbar/home.png",
+                "pagePath": "pages/home/home",
+                "text": "首页"
+            },
+            {
+                "selectedIconPath": "images/tabbar/Circle2.png",
+                "iconPath": "images/tabbar/Circle.png",
+                "pagePath": "pages/circle/circle",
+                "text": "朋友圈"
+            },
+            {
+                "selectedIconPath": "images/tabbar/mine2.png",
+                "iconPath": "images/tabbar/mine.png",
+                "pagePath": "pages/mine/mine",
+                "text": "我的"
+            }
+        ]
+    }
+}

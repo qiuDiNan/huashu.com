@@ -1,0 +1,15 @@
+<!--pages/complain/complain.wxml-->
+<view class="wrap">
+  <view class="titl">
+    联系方式
+  </view>
+  <view class="mobile">
+    <input type="text" class="inpt" placeholder="请输入您的手机号码" maxlength="11" bindinput="bindPhoneInput" :value="phone"/>
+  </view>
+  <view class="titl">
+    意见反馈内容
+  </view>
+  <textarea class="input-placeholder,opinion" 	placeholder="请填写您的意见反馈内容" :value="reason" bindinput="bindReasonInput"	maxlength="-1"></textarea>
+
+  <button class="buttn" bindtap="submitFrom">提交</button>
+</view>

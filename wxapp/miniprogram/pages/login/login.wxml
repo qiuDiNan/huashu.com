@@ -1,0 +1,48 @@
+<!--pages/enter/enter.wxml-->
+<view class="main" style="background: url('../../images/enter/enter-bg.png')  center/cover;">
+<view class="container" style="background: url('../../images/enter/container.png')  center/cover;">
+<!-- 1 -->
+<view class="welcome">
+<image src="../../images/enter/welcome.png"></image>
+</view>
+<!-- 2 -->
+<view class="description">
+    Welcome 
+</view>
+<!-- from -->
+<view class="inpt-box">
+    <view class="inpt" style="background: url(../../images//enter/input.png) center/cover;">
+    <view class="icon-main">
+    <view class="icon-ID" >
+    <image src="../../images/enter/inpID.png"></image>  
+    </view>
+    <view class="icon-rig">
+    账号
+    </view>
+    </view>
+    <input type="text" class="intext" :value="account" bindinput="bindAccountInput" />
+    <view class="abusloud"></view>
+    </view>
+
+    <view class="inpt" style="background: url(../../images//enter/input.png) center/cover;">
+    <view class="icon-main">
+    <view class="icon-ID" >
+    <image src="../../images/enter/pacss.png"></image>  
+    </view>
+    <view class="icon-rig">
+    密码
+    </view>
+    </view>
+    <input type="text" class="intext" :value="password" bindinput="bindPasswordInput" password="true1"/>
+    <view class="abusloud"></view>
+    </view>
+
+   
+</view>
+ <!-- 提交 -->
+<view class="submit">
+    <button class="submit" style="background: url(../../images//enter/submit.png)center/cover" bindtap="submitFrom">立即登录</button>
+    </view>
+</view>
+
+</view>

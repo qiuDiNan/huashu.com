@@ -1,0 +1,76 @@
+<view class="home">
+  <!-- swiper -->
+   <swiper style="width: 690rpx; height: 450rpx; margin: 0 auto;" 	indicator-dots="true" 	autoplay="true">
+   <block wx:for="{{swipers}}" wx:key="index">
+     <swiper-item class="swiper-item">
+       <image src="{{item.img}}"></image>
+     </swiper-item>
+    </block>
+   </swiper>
+   <!-- input -->
+    <view class="input-wrapper">
+      <view class="wrapp-left">
+        <image src="../../images/home/wrapp-left.png"></image>
+      </view>
+      <input type="text" placeholder="输入你想说的话" bindtap="anvForward"/>
+      <button class="buttn" style="background: url(../../images/home/buttn.png) no-repeat center/cover;">
+        一键查找
+      </button>
+    </view>
+    <view class="hot">
+       <!-- header -->
+       <view class="hot-header">
+         <view class="header-text">
+           大家都在搜
+         </view>
+         <view class="header-rig" style="background: url('../../images/home/header-rig.png') no-repeat center/cover;">
+              <view class="heade-imgbox">
+                <image src="../../images/home/heade-imgbo.png"></image>
+              </view>
+              <view class="header-in"  bindtap="switchHotSearch">
+                 换一批
+              </view>
+         </view>
+       </view>
+       <view class="hot-conten">
+       <block wx:for="{{hot_search}}" wx:key="index">
+          <view class="con-item" style="background: url('../../images/home/con-item.png') no-repeat center/cover;">
+             <view class="itemIcom">
+               <image src="../../images/home/itemIcom2.png"></image>
+             </view>
+             <view class="textIcon">
+               {{item.name}}
+             </view>
+          </view>
+        </block>
+       </view>
+    </view>
+    <view class="section">
+      <view class="section-lef" bindtap="navTo" data-categoryid="{{brands[0].categoryid}}">
+       <image src="{{brands[0].img}}"></image>
+      </view>
+      <view class="section-box">
+        <view class="section-box-header" bindtap="navTo" data-categoryid="{{brands[0].categoryid}}">
+          <image src="{{brands[1].img}}"></image>
+        </view>
+        <view class="section-bottom" bindtap="navTo" data-categoryid="{{brands[0].categoryid}}">
+          <image src="{{brands[2].img}}"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class="module">
+    
+      <view class="module-item" wx:for="{{recommond_categories}}" wx:key="{{key}}">
+        <view class="describe">
+         {{item.name}}
+        </view>
+        
+        <view class="itemsbox" wx:for="{{item.sub_categories}}" wx:key="{{indexs}}" wx:for-item="items" >
+          <view bindtap="navTo" data-categoryid="{{items.categoryid}}" class="items">{{items.name}}</view>
+        </view>
+      
+      </view>
+  
+    </view>
+</view>

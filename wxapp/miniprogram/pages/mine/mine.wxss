@@ -1,0 +1,83 @@
+.wrap {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F3F3F3;
+}
+.header {
+    padding-top: 1rpx;
+    width: 100%;
+    height: 352rpx;
+}
+.portrait {
+    margin: 72rpx auto 10rpx;
+    width: 165rpx;
+    height: 165rpx;
+}
+.portrait image{
+    width: 100%;
+    height: 100%;
+}
+.loginID {
+    height: 28rpx;
+    font-size: 30rpx;
+    line-height: 28rpx;
+    text-align: center;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.lisbox {
+    margin-top: 20rpx;
+    width: 100%;
+    height: 890rpx;
+}
+.lisitem {
+    box-sizing: border-box;
+    padding: 0 30rpx 0 30rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 110rpx;
+    border-top: 2rpx solid #D3D3D3;
+}
+.lis-lef {
+    display: flex;
+}
+.lisimg {
+    width: 42rpx;
+    height: 42rpx;
+}
+.lisimg image{
+    width: 100%;
+    height: 100%;
+
+}
+.listext {
+    margin-left: 20rpx;
+    height: 42rpx;
+    font-size: 30rpx;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #313131;
+}
+.lis-icon {
+    width: 22rpx;
+    height: 31rpx;}
+.lis-icon image{
+    width: 100%;
+    height: 100%;
+
+}
+.exit {
+    margin: 265rpx auto;
+    width: 508rpx;
+    height: 72rpx;
+    line-height: 72rpx;
+    text-align: center;
+    font-size: 36rpx;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #FFFFFF;
+}

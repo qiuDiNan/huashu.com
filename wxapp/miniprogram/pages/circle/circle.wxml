@@ -1,0 +1,4 @@
+<!--pages/Circle/Circle.wxml-->
+<view class="borde" style="background: url(homes.png) center/cover no-repeat;">
+  
+</view>

@@ -1,0 +1,32 @@
+<!-- 我的 -->
+<view class="wrap">
+  <view class="header" style="background: url('../../images/mine/header-bg.png') center/cover;">
+     <view class="portrait">
+      <image src="../../images/mine/profile.png" alt=""/>
+     </view>
+     <view class="loginID">登录</view>
+  </view>
+
+  <view class="lisbox" style="background: url('../../images/mine/mine.png') no-repeat center/cover; ">
+<block wx:for="{{Listag}}" wx:key="key" wx:for-index="idx" id="idx">
+  <view class="lisitem" bindtap="complain" data-index="{{idx}}">
+    <view class="lis-lef">
+      <view class="lisimg">
+      <image src="{{item.imgersssd}}" alt=""/>
+      </view>
+      <view class="listext">
+      {{item.conten}}
+      </view>
+    </view>
+      <view class="lis-icon">
+      <image src="{{item.imgersssd2}}" alt=""/>
+      </view>
+    </view>
+</block>
+
+      <view class="exit"
+      style="background: url(../../images//mine//exit.png) center/cover;"
+      >退出登录</view>
+  </view>
+ 
+</view>

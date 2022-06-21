@@ -1,0 +1,98 @@
+/* pages/talkcollect/talkcollect.wxss */
+.talkcollect {
+    box-sizing: border-box;
+    padding: 52rpx 47rpx 0 47rpx;
+    width: 100vw;
+    height: 100vh;
+}
+.itemBox {
+    margin-bottom: 52rpx;
+    width: 100%;
+    border-bottom: 2rpx solid #D3D3D3;
+}
+.heade {
+    height: 29px;
+    font-size: 30rpx;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #313131;
+    line-height: 29rpx;
+}
+.conten {
+    display: flex;
+    width: 100%;
+
+}
+.portrait {
+    margin-right: 10rpx ;
+    width: 98rpx;
+    height: 98rpx;
+}
+.portrait image{
+    width: 100%;
+    height: 100%;
+}
+.textarea {
+    margin-top: 36rpx;
+    margin-bottom: 39rpx;
+    width: 100%;
+    letter-spacing:4rpx;
+    font-size: 28rpx;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #313131;
+ 
+}
+.footer {
+    margin-bottom: 30rpx;
+    display: flex;
+    margin-left: 350rpx;
+    width: 310rpx;
+    height: 44rpx;
+
+}
+.footer-left {
+    margin-right: 89rpx;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-rig {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lefImg {
+    margin-right: 19rpx;
+    width: 44rpx;
+    height: 100%;
+}
+.lefImg image{
+    width: 100%;
+    height: 100%;
+}
+.leftext {
+height: 22rpx;
+font-size: 24rpx;
+font-family: Source Han Sans CN;
+font-weight: 400;
+color: #313131;
+line-height: 22rpx;
+}
+.rigimg {
+    margin-right: 17rpx;
+    width: 46rpx;
+    height: 100%;
+}
+.rigimg image{
+    width: 100%;
+    height: 100%;
+}
+.rigtext {
+    height: 23rpx;
+    font-size: 24rpx;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #313131;
+    line-height: 23rpx;
+}

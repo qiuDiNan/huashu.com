@@ -1,0 +1,36 @@
+<!--pages/talkcollect/talkcollect.wxml-->
+<view class="talkcollect">
+  <view class="itemBox" wx:for="{{list}}" wx:key="key">
+     <view class="heade">
+        {{item.titl}}
+     </view>
+     <view class="conten">
+     
+       <view class="portrait">
+         <image src="{{item.imgportrait}}"></image>
+       </view>
+       <view class="textarea">
+         {{item.conten}}
+       </view>
+      
+     </view>
+     <view class="footer" >
+        <view class="footer-left">
+          <view class="lefImg">
+            <image src="{{item.leficon}}"></image>
+          </view>
+          <view class="leftext">
+            {{item.text}}
+          </view>
+        </view>
+        <view class="footer-rig">
+          <view class="rigimg">
+            <image src="{{item.rigicon}}"></image>
+          </view>
+          <view class="rigtext">
+            {{item.text2}}
+          </view>
+        </view>
+      </view>
+  </view>
+</view>

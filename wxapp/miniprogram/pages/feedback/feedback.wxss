@@ -1,0 +1,52 @@
+/* pages/complain/complain.wxss */
+.wrap {
+    box-sizing: border-box;
+    padding: 51rpx 21rpx 0 21rpx;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+.titl {
+    margin-bottom: 24rpx;
+    margin-left: 23rpx;
+    height: 29rpx;
+    font-size: 30rpx;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #313131;
+    line-height: 30rpx;
+}
+.mobile {
+    margin-bottom: 42rpx;
+    width: 705rpx;
+    height: 116rpx;
+    background-color: #F7F7F7;
+    border-radius: 30rpx;
+}
+.inpt {
+    box-sizing: border-box;
+    padding-left: 20rpx;
+    width: 705rpx;
+    height: 116rpx;
+}
+.opinion {
+    margin-bottom: 180rpx;
+    box-sizing: border-box;
+    padding: 43rpx 0 0 22rpx;
+    width: 705rpx;
+    height: 460rpx;
+    border-radius: 30rpx;
+    background-color: #F7F7F7;
+}
+.input-placeholder {
+    color:rgba(226,226,226,1);
+    font-size:28rpx;
+  }
+  .buttn {
+      width: 508rpx;
+      height: 72rpx;
+      line-height: 72rpx;
+      color: #fff;
+      background-color: #1560AE;
+      border-radius: 35rpx;
+  }
